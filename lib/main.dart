@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:notifications/attendance.dart';
 import 'package:notifications/channelpartner.dart';
 import 'package:notifications/mytask.dart';
+import 'package:notifications/pgm_const.dart';
 import 'package:notifications/searchscreen.dart';
 
 void main() {
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
       // home: searchscreen(),
       // home: channelpartner(),
       //  home: attendance(),
-      home:mytask(),
+      // home:mytask(),
+      home: pgm_const(),
               
     );
   }
